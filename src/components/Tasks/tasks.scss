@@ -1,0 +1,25 @@
+@use 'src/styles/vars';
+@use 'sass:color';
+
+.tasks__item {
+  display: block;
+  background: color.scale(vars.$color-light, $lightness: -6.25%);
+  border-radius: 3px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-family: 'Parisienne', cursive;
+  display: flex;
+  justify-content: left;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px 12px 22px 0px rgba(0,0,0,0.86); 
+  box-shadow: 0px 10px 13px -7px #000000, 3px 12px 22px 0px rgba(0,0,0,0.86);
+
+  &--done {
+    opacity: 0.1;
+    text-decoration: line-through;
+  }
+}
+
+input[type="checkbox"]{
+  margin-right: 1rem;
+}
