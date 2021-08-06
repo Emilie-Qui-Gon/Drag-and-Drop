@@ -2,10 +2,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import Todolist from './components/Todolist/todolist';
+import App from './components/App';
 
 
-const rootReactElement = <Todolist />;
+const rootReactElement = <App />;
 
 const target = document.getElementById('root');
 

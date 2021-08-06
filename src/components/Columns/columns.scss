@@ -1,0 +1,23 @@
+.columns{
+    width: 30%;
+	padding-top: 20px;
+	background-color: #54545493; 
+	display: flex;
+	flex-direction: column;	
+	justify-content: flex-start;
+	
+		&__title{
+			text-align: center;
+			text-transform: uppercase;
+			font-family : 'Oswald', sans-serif;
+			color: rgb(255, 255, 255);
+			font-size: 1.5rem;
+			padding-bottom: 1rem;
+		}
+
+		&__div-drop{
+			height: 100%;
+			
+		}
+}
+
